@@ -112,9 +112,6 @@
 \KAuxFileAt {main.tex}{95}
 \KAuxAutorefTarget {default}{base}{ring}
 
-\KAuxFileAt {main.tex}{98}
-\KAuxErrorKnowledgeUnknown {default}{}{commutative}{commutative}{\kl }
-
 \KAuxFileAt {main.tex}{109}
 \KAuxAutorefTarget {default}{base}{commutative ring}
 
