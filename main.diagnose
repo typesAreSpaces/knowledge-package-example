@@ -1,0 +1,39 @@
+***********
+* Summary *
+***********
+
+1 undefined knowledge(s).
+0 autoreference(s) are introduced twice.
+0 autoreference(s) are used but not introduced.
+
+3 autoreference(s) are properly used.
+5 autoreference(s) are defined but not used.
+
+
+********
+* Help *
+********
+
+\knowledgeconfigure{diagnose bar=false} deactivate `|'-notation in diagnose file.
+\knowledgeconfigure{diagnose help=false} deactivate long help in the diagnose file.
+\knowledgeconfigure{diagnose line=true} add line numbers to diagnose file.
+
+************************
+* Undefined knowledges *
+************************
+
+\knowledge{ignore}
+ | commutative
+
+
+***********************************
+* Autoref introduced but not used *
+***********************************
+
+kldb.tex:17: {abelian}{default}{base}
+kldb.tex:22: {subgroup}{default}{base}
+kldb.tex:27: {ring}{default}{base}
+kldb.tex:32: {commutative ring}{default}{base}
+kldb.tex:34: {ring with identity}{default}{base}
+
+

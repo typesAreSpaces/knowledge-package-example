@@ -1,0 +1,121 @@
+\documentclass[a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{xcolor, makeidx}
+\usepackage[breaklinks,hidelinks]{hyperref}
+\usepackage[xcolor, makeidx, hyperref, notion]{knowledge}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{notation}{Notation}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}{Example}[definition]
+\newtheorem*{remark}{Remark}
+
+\title{Knowledge package example}
+\author{Jose Abel Castellanos Joo}
+\date{\today}
+
+\input{kldb}
+\makeindex
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  Quick document showing some features of the knowledge package.
+\end{abstract}
+
+\section{Semigroups, Monoids and Groups} \cite{Hungerford1980}
+
+\begin{definition}
+  A \intro{semigroup} is a nonempty set $G$ together
+  with a binary operation on $G$ which is
+  \begin{itemize}
+    \item associative: $a(bc) = (ab)c$ for all $a, b, c \in G$
+  \end{itemize}
+
+  a \intro{monoid} is a \kl{semigroup} $G$ which contains a 
+  \begin{itemize}
+    \item (two-sided) identity element $e \in G$ such that $ae = ea = a$ for all $a \in G$.
+  \end{itemize}
+
+  A\intro{group} is a \kl{monoid} $G$ such that
+
+  \begin{itemize}
+    \item for every $a \in G$ there exists a (two-sided) inverse element $a^{-1} \in G$
+      such that $a^{-1}a = aa^{-1} = e$.
+  \end{itemize}
+
+  A \kl{semigroup} $G$ is said to be \intro{abelian} if its binary operation is
+  \begin{itemize}
+    \item commutative: $ab = ba$ for all $a, b \in G$.
+  \end{itemize}
+\end{definition}
+
+\section{Homomorphisms and Subgroups}
+
+\begin{definition}
+  Let $G$ be a group and $H$ a nonempty
+  subset that is closed under the product in $G$.
+  If $H$ is itself a \kl{group} under the product
+  of $G$, then $H$ is said to be a \intro{subgroup} 
+  of $G$. This is denoted by $H < G$.
+\end{definition}
+
+\section{Lorem Ipsum}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin tempor id eu nisl nunc mi. Amet facilisis magna etiam tempor orci eu lobortis. Ut lectus arcu bibendum at varius vel pharetra vel turpis. Egestas integer eget aliquet nibh praesent. At consectetur lorem donec massa sapien. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Ac odio tempor orci dapibus ultrices in. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Pulvinar etiam non quam lacus suspendisse faucibus interdum. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Vel pretium lectus quam id leo in vitae turpis massa. Lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Consectetur adipiscing elit pellentesque habitant. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Et netus et malesuada fames ac turpis. Ut aliquam purus sit amet luctus. Sit amet tellus cras adipiscing. Morbi tincidunt augue interdum velit euismod in.
+
+Sem viverra aliquet eget sit amet tellus cras adipiscing. Turpis egestas pretium aenean pharetra magna ac. Gravida in fermentum et sollicitudin ac. Mattis enim ut tellus elementum. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Ut enim blandit volutpat maecenas volutpat. Sit amet nisl purus in mollis. Vitae aliquet nec ullamcorper sit amet risus. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Duis convallis convallis tellus id interdum velit laoreet. Dui accumsan sit amet nulla. Vitae aliquet nec ullamcorper sit amet risus nullam eget. Adipiscing bibendum est ultricies integer quis auctor. Viverra nam libero justo laoreet sit amet cursus sit amet. Elementum nisi quis eleifend quam adipiscing vitae.
+
+Porta nibh venenatis cras sed felis eget velit aliquet. Nec nam aliquam sem et tortor consequat id porta nibh. Volutpat consequat mauris nunc congue nisi vitae. Non blandit massa enim nec dui nunc mattis enim ut. Dolor sit amet consectetur adipiscing. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Sem et tortor consequat id porta nibh venenatis cras sed. Elit ullamcorper dignissim cras tincidunt lobortis feugiat. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Amet massa vitae tortor condimentum lacinia quis. Sed turpis tincidunt id aliquet risus feugiat in ante. Vulputate ut pharetra sit amet aliquam. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Ut placerat orci nulla pellentesque. Arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales. Integer vitae justo eget magna fermentum iaculis eu non diam. Nam libero justo laoreet sit amet cursus sit.
+
+Nisl tincidunt eget nullam non. Accumsan in nisl nisi scelerisque. Orci ac auctor augue mauris augue neque gravida. Neque gravida in fermentum et sollicitudin ac orci. Ut diam quam nulla porttitor massa id neque aliquam. Imperdiet dui accumsan sit amet nulla facilisi. Velit sed ullamcorper morbi tincidunt ornare massa eget egestas. In metus vulputate eu scelerisque felis. Id diam maecenas ultricies mi eget mauris pharetra. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Orci nulla pellentesque dignissim enim sit amet venenatis. Semper risus in hendrerit gravida rutrum quisque. Erat velit scelerisque in dictum non consectetur. Semper risus in hendrerit gravida. Mi eget mauris pharetra et.
+
+Lobortis mattis aliquam faucibus purus in. Natoque penatibus et magnis dis parturient. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Hac habitasse platea dictumst quisque sagittis purus sit amet volutpat. Tempor commodo ullamcorper a lacus. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a. Nec ullamcorper sit amet risus. Quis auctor elit sed vulputate. Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. At quis risus sed vulputate odio ut. Libero enim sed faucibus turpis in eu. Faucibus in ornare quam viverra. Diam sollicitudin tempor id eu nisl nunc. Id diam maecenas ultricies mi eget mauris. Et leo duis ut diam quam nulla porttitor massa. Ut tellus elementum sagittis vitae et leo duis. Cras semper auctor neque vitae. Rhoncus dolor purus non enim praesent elementum facilisis leo vel. Cras fermentum odio eu feugiat pretium nibh ipsum. Molestie nunc non blandit massa enim nec.
+
+Urna duis convallis convallis tellus id interdum velit laoreet id. Orci nulla pellentesque dignissim enim sit amet venenatis urna. Purus faucibus ornare suspendisse sed nisi lacus sed viverra. Eget dolor morbi non arcu risus quis. Lectus sit amet est placerat in. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consectetur adipiscing elit pellentesque habitant morbi tristique. Mattis rhoncus urna neque viverra justo nec. Convallis aenean et tortor at risus viverra adipiscing at in. Mi proin sed libero enim sed faucibus turpis in eu. Odio facilisis mauris sit amet massa vitae tortor condimentum lacinia. Nullam non nisi est sit amet facilisis. Est sit amet facilisis magna etiam tempor. Euismod nisi porta lorem mollis aliquam ut porttitor leo. Auctor elit sed vulputate mi sit. Facilisi morbi tempus iaculis urna id volutpat lacus.
+
+Aliquam ut porttitor leo a diam. Ultrices mi tempus imperdiet nulla malesuada. Sapien et ligula ullamcorper malesuada. Magnis dis parturient montes nascetur ridiculus. Arcu dictum varius duis at consectetur lorem donec massa. Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Urna neque viverra justo nec ultrices dui sapien eget. Egestas maecenas pharetra convallis posuere morbi leo. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec. Eu consequat ac felis donec et. At in tellus integer feugiat scelerisque varius. Magna fermentum iaculis eu non diam phasellus. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in. Turpis cursus in hac habitasse platea. Suscipit tellus mauris a diam maecenas sed enim ut. Auctor eu augue ut lectus arcu bibendum. Id aliquet lectus proin nibh nisl condimentum id venenatis. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut.
+
+Fermentum iaculis eu non diam phasellus vestibulum lorem sed risus. Vel quam elementum pulvinar etiam. Tellus in hac habitasse platea dictumst. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Habitant morbi tristique senectus et netus. Aliquet bibendum enim facilisis gravida neque convallis a cras. Orci sagittis eu volutpat odio facilisis. Magna ac placerat vestibulum lectus mauris. Vel pretium lectus quam id. Mi tempus imperdiet nulla malesuada pellentesque elit. Ac tincidunt vitae semper quis lectus nulla.
+
+Quam pellentesque nec nam aliquam sem et. Sapien eget mi proin sed libero enim sed faucibus turpis. Ut morbi tincidunt augue interdum velit euismod in. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Risus in hendrerit gravida rutrum. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Felis eget nunc lobortis mattis aliquam faucibus. Consequat mauris nunc congue nisi vitae suscipit. Vivamus at augue eget arcu. Mattis rhoncus urna neque viverra justo nec ultrices. Et tortor at risus viverra adipiscing at in. Faucibus pulvinar elementum integer enim neque volutpat. Dictum fusce ut placerat orci nulla pellentesque dignissim enim. Lacinia at quis risus sed. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Id cursus metus aliquam eleifend mi in nulla. Fringilla ut morbi tincidunt augue interdum velit. Est sit amet facilisis magna. Pellentesque elit eget gravida cum sociis natoque penatibus.
+
+Fermentum et sollicitudin ac orci phasellus egestas. Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Pellentesque nec nam aliquam sem et tortor consequat id porta. Turpis egestas sed tempus urna et pharetra pharetra. Pellentesque habitant morbi tristique senectus et. Venenatis lectus magna fringilla urna porttitor rhoncus. Ut tortor pretium viverra suspendisse potenti nullam. Dolor sed viverra ipsum nunc. Morbi quis commodo odio aenean sed adipiscing diam. Lacus sed turpis tincidunt id aliquet. Ultrices dui sapien eget mi proin. In hendrerit gravida rutrum quisque non tellus orci. Sem integer vitae justo eget magna. Egestas dui id ornare arcu odio ut.
+
+\section{Rings and Homomorphism}
+
+\begin{definition}
+  A \intro{ring} is a nonempty set $R$
+  together with two binary operations (usually denoted as addition (+) and multiplication) such that:
+  \begin{itemize}
+    \item $(R, +)$ is an \kl{commutative} \kl{group};
+    \item $(ab)c = a(bc)$ for all $a, b, c \in R$ (associate multiplication)
+    \item $a(b + c) = ab + ac$ and $(a+b)c = ac + bc$
+      (left and right distributive laws).
+  \end{itemize}
+
+  If in addition:
+  \begin{itemize}
+    \item $ab = ba$ for all $a, b \in R$,
+  \end{itemize}
+
+  then $R$ is said to be a \intro{commutative ring}.
+  If $R$ contains an elements $1_R$ suc that
+  \begin{itemize}
+    \item $1_R a = a 1_R = a$ for all $a \in R$,
+  \end{itemize}
+
+  then $R$ is said to be a \intro{ring with identity}.
+\end{definition}
+
+\bibliographystyle{plain}
+\bibliographystyle{references}
+
+\end{document}

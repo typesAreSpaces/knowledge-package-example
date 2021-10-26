@@ -1,0 +1,123 @@
+
+\KAuxCommand \KAuxEOF {m}{Does nothing, useless empty argument, and is searched for knowing if the kaux file was written till the end.}
+\KAuxCommand \KAuxUndeclaredScopeTag {m}{Package scope: States that a labelname is used in a knowledge definition.}
+\KAuxCommand \KAuxDeclaredScopeTag {m}{Package scope: States that a labelname has been declared.}
+\KAuxCommand \KAuxNewLinkScopetagInstance {mm}{Package scope: Declares that a label is declared in an instance of a scope.}
+\KAuxCommand \KAuxScopeNewInstance {mmm}{Package scope: Declares a new instance of a scope.}
+\KAuxCommand \KAuxScopeTag {mm}{Package scope: Links a scopetag to an instance of a scope.}
+\KAuxCommand \KAuxKnowledge {mmmm}{Package knowledge: Declares a knowledge. Takes the {namespace}{instance}{knowledge}{directives}.}
+\KAuxCommand \KAuxErrorKnowledgeRecursive {mmmm}{Package 'knowledge: A knowledge has recursive definition. {namespace}{scope}{undefined knowledge}{base knowledge}}
+\KAuxCommand \KAuxErrorKnowledgeUnknown {mmmmm}{Package 'knowledge: A knowledge is not defined. {namespace}{scope/empty}{undefined knowledge}{base knowledge}{command}}
+\KAuxCommand \KAuxErrorLabelUnknown {m}{Package 'knowledge: A label is not defined. {label}}
+\KAuxCommand \KAuxAutoref {mmm}{Package knowledge: Declares an autoref knowledge. Arguments {namespace}{instance}{knowledge}.}
+\KAuxCommand \KAuxAutorefTarget {mmm}{Package knowledge: Declares the use of a target to an autoref knowledge. Arguments {namespace}{instance}{knowledge}.}
+\KAuxCommand \KAuxUseKnowledge {mmm}{Package knowledge: Identifies the use of some knowledge. Arguments {namespace}{instance}{knowledge}.}
+
+
+\KAuxFileAt {kldb.tex}{1}
+
+\KAuxFileAt {kldb.tex}{2}
+\KAuxAutoref {default}{base}{semigroup}
+
+\KAuxFileAt {kldb.tex}{3}
+
+\KAuxFileAt {kldb.tex}{4}
+
+\KAuxFileAt {kldb.tex}{5}
+
+\KAuxFileAt {kldb.tex}{6}
+
+\KAuxFileAt {kldb.tex}{7}
+\KAuxAutoref {default}{base}{monoid}
+
+\KAuxFileAt {kldb.tex}{8}
+
+\KAuxFileAt {kldb.tex}{9}
+
+\KAuxFileAt {kldb.tex}{10}
+
+\KAuxFileAt {kldb.tex}{11}
+
+\KAuxFileAt {kldb.tex}{12}
+\KAuxAutoref {default}{base}{group}
+
+\KAuxFileAt {kldb.tex}{13}
+
+\KAuxFileAt {kldb.tex}{14}
+
+\KAuxFileAt {kldb.tex}{15}
+
+\KAuxFileAt {kldb.tex}{16}
+
+\KAuxFileAt {kldb.tex}{17}
+\KAuxAutoref {default}{base}{abelian}
+
+\KAuxFileAt {kldb.tex}{18}
+
+\KAuxFileAt {kldb.tex}{19}
+
+\KAuxFileAt {kldb.tex}{20}
+
+\KAuxFileAt {kldb.tex}{21}
+
+\KAuxFileAt {kldb.tex}{22}
+\KAuxAutoref {default}{base}{subgroup}
+
+\KAuxFileAt {kldb.tex}{23}
+
+\KAuxFileAt {kldb.tex}{24}
+
+\KAuxFileAt {kldb.tex}{25}
+
+\KAuxFileAt {kldb.tex}{26}
+
+\KAuxFileAt {kldb.tex}{27}
+\KAuxAutoref {default}{base}{ring}
+
+\KAuxFileAt {kldb.tex}{28}
+
+\KAuxFileAt {kldb.tex}{29}
+
+\KAuxFileAt {kldb.tex}{30}
+
+\KAuxFileAt {kldb.tex}{31}
+
+\KAuxFileAt {kldb.tex}{32}
+\KAuxAutoref {default}{base}{commutative ring}
+
+\KAuxFileAt {kldb.tex}{33}
+
+\KAuxFileAt {kldb.tex}{34}
+\KAuxAutoref {default}{base}{ring with identity}
+
+\KAuxFileAt {main.tex}{25}
+\KAuxScopeNewInstance {base}{base}{}
+\KAuxScopeNewInstance {document}{document}{base}
+
+\KAuxFileAt {main.tex}{36}
+\KAuxAutorefTarget {default}{base}{semigroup}
+
+\KAuxFileAt {main.tex}{42}
+\KAuxAutorefTarget {default}{base}{monoid}
+
+\KAuxFileAt {main.tex}{47}
+\KAuxAutorefTarget {default}{base}{group}
+
+\KAuxFileAt {main.tex}{54}
+\KAuxAutorefTarget {default}{base}{abelian}
+
+\KAuxFileAt {main.tex}{66}
+\KAuxAutorefTarget {default}{base}{subgroup}
+
+\KAuxFileAt {main.tex}{95}
+\KAuxAutorefTarget {default}{base}{ring}
+
+\KAuxFileAt {main.tex}{98}
+\KAuxErrorKnowledgeUnknown {default}{}{commutative}{commutative}{\kl }
+
+\KAuxFileAt {main.tex}{109}
+\KAuxAutorefTarget {default}{base}{commutative ring}
+
+\KAuxFileAt {main.tex}{115}
+\KAuxAutorefTarget {default}{base}{ring with identity}
+\KAuxEOF {}
